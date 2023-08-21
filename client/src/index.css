@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&family=Poppins:wght@700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Nunito Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* navbar css */
+.navbar {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px #243E36;
+  --webkit-box-shadow: 0 8px 6px -6px #243E36;
+  border-bottom: 0.0px solid #243E36 !important;
+
+
+}
+
+.nav-link {
+  font-weight: normal;
+}
+
+.nav-link:hover {
+  color: #C2A83E;
+}
+
+.active {
+  border: 2px solid #7CA982;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+/* footer */
+.footer {
+  color: white;
+  padding: 25px;
+  background-color: #243E36;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
+
+.footer a:hover {
+  color: #C2A83E;
+
+}
+
+
+/* page not found  */
+
+.pnf {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
